@@ -1,0 +1,26 @@
+@media (max-width: 900px){
+    .header{
+        height: 30vh;
+    }
+    .title{
+        font-size: 11vw;
+    }
+}
+.title{
+    font-size: 7vw;
+    text-transform: uppercase;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 40vh;
+    width: 100%;
+}
+
+.search {
+    width: 100%;
+}
